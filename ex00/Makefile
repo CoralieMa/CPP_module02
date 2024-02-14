@@ -6,11 +6,11 @@
 #    By: cmartino <cmartino@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/02/14 10:09:13 by cmartino          #+#    #+#              #
-#    Updated: 2024/02/14 11:20:23 by cmartino         ###   ########.fr        #
+#    Updated: 2024/02/14 13:39:01 by cmartino         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME	= a.out
+NAME	= fixed
 
 FILES	= main \
 			Fixed
