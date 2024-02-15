@@ -6,7 +6,7 @@
 /*   By: cmartino <cmartino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/14 10:09:26 by cmartino          #+#    #+#             */
-/*   Updated: 2024/02/14 13:47:52 by cmartino         ###   ########.fr       */
+/*   Updated: 2024/02/15 15:04:07 by cmartino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ class Fixed
 {
 	private:
 		int					_value;
-		static const int	_fractBits;
+		static const int	_fractBits = 8;
 	
 	public:
 		// Default constructor

@@ -6,7 +6,7 @@
 /*   By: cmartino <cmartino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/14 13:05:09 by cmartino          #+#    #+#             */
-/*   Updated: 2024/02/14 14:15:28 by cmartino         ###   ########.fr       */
+/*   Updated: 2024/02/15 16:21:56 by cmartino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,9 +56,14 @@ void	Fixed::setRawBits(int const raw){
 }
 
 float	Fixed::toFloat(void) const{
-	
+	return (this->_value);
 }
 
 int	Fixed::toInt(void) const{
-	
+	return (0);
+}
+
+std::ostream & operator<<(std::ostream & o, Fixed const & rhs){
+	o << rhs.toFloat();
+	return (o);
 }

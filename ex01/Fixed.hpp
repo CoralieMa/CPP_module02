@@ -6,7 +6,7 @@
 /*   By: cmartino <cmartino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/14 13:05:14 by cmartino          #+#    #+#             */
-/*   Updated: 2024/02/14 13:59:44 by cmartino         ###   ########.fr       */
+/*   Updated: 2024/02/15 15:20:29 by cmartino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ class Fixed
 {
 	private:
 		int					_value;
-		static const int	_fractBits;
+		static const int	_fractBits = 8;
 	
 	public:
 		Fixed();
@@ -36,6 +36,6 @@ class Fixed
 
 };
 
-// to do : overload of the insertion <<
+std::ostream & operator<<(std::ostream & o, Fixed const & rhs);
 
 #endif
