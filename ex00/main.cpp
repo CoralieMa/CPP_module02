@@ -6,16 +6,15 @@
 /*   By: cmartino <cmartino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/14 10:09:24 by cmartino          #+#    #+#             */
-/*   Updated: 2024/02/14 13:39:14 by cmartino         ###   ########.fr       */
+/*   Updated: 2024/02/14 13:53:52 by cmartino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <iostream>
 #include "Fixed.hpp"
 
 int main( void ) {
 	Fixed a;
-	Fixed b( a ); //ici
+	Fixed b( a );
 	Fixed c;
 
 	c = b;
