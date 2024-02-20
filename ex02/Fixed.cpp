@@ -6,7 +6,7 @@
 /*   By: cmartino <cmartino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/16 14:41:19 by cmartino          #+#    #+#             */
-/*   Updated: 2024/02/20 11:22:15 by cmartino         ###   ########.fr       */
+/*   Updated: 2024/02/20 11:30:37 by cmartino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -125,14 +125,14 @@ Fixed	Fixed::operator++(int){
 	Fixed	tempFixedPoint(*this);
 
 	this->_value++;
-	return (newFixedPoint);
+	return (tempFixedPoint);
 }
 
 Fixed	Fixed::operator--(int){
 	Fixed	tempFixedPoint(*this);
 
 	this->_value--;
-	return (newFixedPoint);
+	return (tempFixedPoint);
 }
 
 Fixed&	Fixed::operator++(void){
