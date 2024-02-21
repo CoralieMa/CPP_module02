@@ -6,7 +6,7 @@
 /*   By: cmartino <cmartino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/20 11:41:36 by cmartino          #+#    #+#             */
-/*   Updated: 2024/02/20 15:48:16 by cmartino         ###   ########.fr       */
+/*   Updated: 2024/02/21 14:13:01 by cmartino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,9 +26,7 @@ Point::Point(const float x, const float y): _x(x), _y(y){
 	return;
 }
 
-Point::Point(const Point& other){
-	(Fixed) this->_x = (other.getX());
-	(Fixed) this->_y = (other.getY());
+Point::Point(const Point& other): _x(other.getX()), _y(other.getY()){
 	return ;
 }
 
