@@ -6,7 +6,7 @@
 /*   By: cmartino <cmartino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/20 11:41:39 by cmartino          #+#    #+#             */
-/*   Updated: 2024/02/20 15:26:16 by cmartino         ###   ########.fr       */
+/*   Updated: 2024/02/22 11:09:07 by cmartino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,6 @@ class Point
 		Fixed const	_y;
 };
 
-bool isInTriangle(Point& a, Point& b, Point& c, Point& point);
+bool bsp(Point const a, Point const b, Point const c, Point const point);
 
 #endif
